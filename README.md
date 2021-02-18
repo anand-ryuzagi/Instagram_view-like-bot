@@ -2,9 +2,13 @@
 Instagram bot to view and like all the photos at once of a user by simply giving his instagram user_id 
 
 modules:
+
 from selenium import webdriver
+
 from selenium.webdriver.common.keys import Keys
+
 from time import sleep
+
 from selenium.common.exceptions import NoSuchElementException
 
 
